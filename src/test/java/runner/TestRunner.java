@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
                                 "json:target/cucumber-reports/cucumber.json",
                                 "junit:target/cucumber-reports/cucumber.xml",
                                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-                }, monochrome = true, publish = false)
+                }, monochrome = false, publish = false)
 public class TestRunner {
         // Classe vazia — JUnit 4 usa reflexão via @RunWith
 }
