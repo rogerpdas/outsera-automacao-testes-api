@@ -1,0 +1,1250 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 26, 2026 10:07:37 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@products</a><a class="dropdown-item" href="#">@auth</a><a class="dropdown-item" href="#">@negativo</a><a class="dropdown-item" href="#">@positivo</a><a class="dropdown-item" href="#">@smoke</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Autenticação - POST /auth/login e GET /auth/me</p>
+            <p class="text-sm">
+              <span>10:07:38 PM</span> / <span>00:00:03:809</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Autenticação - POST /auth/login e GET /auth/me</h5>
+<span class='badge badge-success'>02.26.2026 10:07:38 PM</span>
+<span class='badge badge-danger'>02.26.2026 10:07:42 PM</span>
+<span class='badge badge-default'>00:00:03:809</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Login com credenciais válidas retorna token JWT</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.realizoLoginComUsuarioESenha(java.lang.String,java.lang.String)">
+                <span>Quando realizo login com usuário "emilys" e senha "emilyspass"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarSchema(java.lang.String)">
+                <span>E o contrato da resposta deve respeitar o schema "auth-login-schema.json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)">
+                <span>E o header "Content-Type" deve conter "application/json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarCampoNoCorpo(java.lang.String)">
+                <span>E o corpo da resposta deve conter o campo "accessToken"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.armazenarToken()">
+                <span>E o token JWT é armazenado para uso posterior</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>Login com senha incorreta retorna erro de autenticação</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.realizoLoginComUsuarioESenha(java.lang.String,java.lang.String)">
+                <span>Quando realizo login com usuário "emilys" e senha "senhaerrada"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 400</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="20"><span class="badge log pass-bg mr-2">Pass</span>Login com username ausente retorna erro de validação</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.realizoLoginComUsernameNulo(java.lang.String)">
+                <span>Quando realizo login com a senha "emilyspass" e titulo nulo</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 400</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="27"><span class="badge log pass-bg mr-2">Pass</span>Login com payload malformado retorna erro</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.postarComCorpoMalformado(java.lang.String,java.lang.String)">
+                <span>Quando realizo uma requisição POST para "/auth/login" com corpo malformado "nao-e-json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 400</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>Buscar perfil autenticado com token válido retorna dados do usuário</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.autenticarComCredenciaisValidas()">
+                <span>Dado que estou autenticado com credenciais válidas</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.buscoMeuPerfilLogado()">
+                <span>Quando busco meu perfil logado</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)">
+                <span>E o header "Content-Type" deve conter "application/json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarCampoNoCorpo(java.lang.String)">
+                <span>E o corpo da resposta deve conter o campo "username"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarValorCampo(java.lang.String,java.lang.String)">
+                <span>E o campo "username" da resposta deve ser "emilys"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="45"><span class="badge log pass-bg mr-2">Pass</span>Buscar perfil sem token retorna erro de autenticação</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.buscoMeuPerfilLogadoSemToken()">
+                <span>Quando busco meu perfil logado sem token</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 401</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>Buscar perfil com token inválido retorna erro de autenticação</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.buscoMeuPerfilLogadoComTokenInvalido(java.lang.String)">
+                <span>Quando busco meu perfil logado com token inválido "Bearer token_invalido_xyz"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 401</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="59"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Produtos - CRUD completo em /products</p>
+            <p class="text-sm">
+              <span>10:07:42 PM</span> / <span>00:00:01:972</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Produtos - CRUD completo em /products</h5>
+<span class='badge badge-success'>02.26.2026 10:07:42 PM</span>
+<span class='badge badge-danger'>02.26.2026 10:07:44 PM</span>
+<span class='badge badge-default'>00:00:01:972</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=59</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="60"><span class="badge log pass-bg mr-2">Pass</span>Listar todos os produtos com token válido</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.autenticarComCredenciaisValidas()">
+                <span>E que estou autenticado com credenciais válidas</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.ProductsSteps.listAll()">
+                <span>Quando listo todos os produtos</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarSchema(java.lang.String)">
+                <span>E o contrato da resposta deve respeitar o schema "products-list-schema.json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)">
+                <span>E o header "Content-Type" deve conter "application/json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarCampoNoCorpo(java.lang.String)">
+                <span>E o corpo da resposta deve conter o campo "products"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarCampoMaiorQue(java.lang.String,int)">
+                <span>E o campo "total" da resposta deve ser maior que 0</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="72"><span class="badge log pass-bg mr-2">Pass</span>Buscar produto por ID válido retorna produto</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.autenticarComCredenciaisValidas()">
+                <span>E que estou autenticado com credenciais válidas</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.ProductsSteps.getById(int)">
+                <span>Quando busco o produto de ID 1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarSchema(java.lang.String)">
+                <span>E o contrato da resposta deve respeitar o schema "products-single-schema.json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)">
+                <span>E o header "Content-Type" deve conter "application/json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarCampoNoCorpo(java.lang.String)">
+                <span>E o corpo da resposta deve conter o campo "id"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarCampoNoCorpo(java.lang.String)">
+                <span>E o corpo da resposta deve conter o campo "title"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarCampoNoCorpo(java.lang.String)">
+                <span>E o corpo da resposta deve conter o campo "price"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="85"><span class="badge log pass-bg mr-2">Pass</span>Criar produto com dados válidos retorna produto criado</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.autenticarComCredenciaisValidas()">
+                <span>E que estou autenticado com credenciais válidas</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.ProductsSteps.createProduct(java.lang.String,java.lang.Double)">
+                <span>Quando eu crio um novo produto com titulo "Produto Teste Automação" e preço 99.99</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 201</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarSchema(java.lang.String)">
+                <span>E o contrato da resposta deve respeitar o schema "products-single-schema.json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)">
+                <span>E o header "Content-Type" deve conter "application/json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarCampoNoCorpo(java.lang.String)">
+                <span>E o corpo da resposta deve conter o campo "id"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="96"><span class="badge log pass-bg mr-2">Pass</span>Atualizar parcialmente produto existente com dados válidos</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.autenticarComCredenciaisValidas()">
+                <span>E que estou autenticado com credenciais válidas</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.ProductsSteps.updateProduct(int,java.lang.String)">
+                <span>Quando atualizo o produto de ID 1 mudando o titulo para "Produto Atualizado Automação"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarSchema(java.lang.String)">
+                <span>E o contrato da resposta deve respeitar o schema "products-single-schema.json"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)">
+                <span>E o header "Content-Type" deve conter "application/json"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="106"><span class="badge log pass-bg mr-2">Pass</span>Deletar produto existente retorna sucesso</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="steps.AuthSteps.configuraUrlBase(java.lang.String)">
+                <span>Dado que o sistema está configurado com a URL base "https://dummyjson.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.autenticarComCredenciaisValidas()">
+                <span>E que estou autenticado com credenciais válidas</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.ProductsSteps.deleteProduct(int)">
+                <span>Quando deleto o produto de ID 1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarStatusCode(int)">
+                <span>Então o status code da resposta deve ser 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)">
+                <span>E o header "Content-Type" deve conter "application/json"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">5</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">@products</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@products</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='60'>Listar todos os produtos com token válido</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Listar todos os produtos com token válido</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='72'>Buscar produto por ID válido retorna produto</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Buscar produto por ID válido retorna produto</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='85'>Criar produto com dados válidos retorna produto criado</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Criar produto com dados válidos retorna produto criado</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='96'>Atualizar parcialmente produto existente com dados válidos</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Atualizar parcialmente produto existente com dados válidos</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='106'>Deletar produto existente retorna sucesso</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Deletar produto existente retorna sucesso</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">@auth</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@auth</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Login com credenciais válidas retorna token JWT</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Login com credenciais válidas retorna token JWT</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>Login com senha incorreta retorna erro de autenticação</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Login com senha incorreta retorna erro de autenticação</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='20'>Login com username ausente retorna erro de validação</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Login com username ausente retorna erro de validação</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='27'>Login com payload malformado retorna erro</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Login com payload malformado retorna erro</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Buscar perfil autenticado com token válido retorna dados do usuário</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Buscar perfil autenticado com token válido retorna dados do usuário</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='45'>Buscar perfil sem token retorna erro de autenticação</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Buscar perfil sem token retorna erro de autenticação</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='52'>Buscar perfil com token inválido retorna erro de autenticação</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Buscar perfil com token inválido retorna erro de autenticação</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">@negativo</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@negativo</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>Login com senha incorreta retorna erro de autenticação</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Login com senha incorreta retorna erro de autenticação</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='20'>Login com username ausente retorna erro de validação</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Login com username ausente retorna erro de validação</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='27'>Login com payload malformado retorna erro</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Login com payload malformado retorna erro</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='45'>Buscar perfil sem token retorna erro de autenticação</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Buscar perfil sem token retorna erro de autenticação</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='52'>Buscar perfil com token inválido retorna erro de autenticação</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Buscar perfil com token inválido retorna erro de autenticação</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">@positivo</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@positivo</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Login com credenciais válidas retorna token JWT</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Login com credenciais válidas retorna token JWT</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Buscar perfil autenticado com token válido retorna dados do usuário</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Buscar perfil autenticado com token válido retorna dados do usuário</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='60'>Listar todos os produtos com token válido</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Listar todos os produtos com token válido</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='72'>Buscar produto por ID válido retorna produto</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Buscar produto por ID válido retorna produto</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='85'>Criar produto com dados válidos retorna produto criado</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Criar produto com dados válidos retorna produto criado</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='96'>Atualizar parcialmente produto existente com dados válidos</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Atualizar parcialmente produto existente com dados válidos</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='106'>Deletar produto existente retorna sucesso</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Deletar produto existente retorna sucesso</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Login com credenciais válidas retorna token JWT</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Login com credenciais válidas retorna token JWT</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Buscar perfil autenticado com token válido retorna dados do usuário</a>
+<div class="">
+<span class="badge badge-default">Autenticação - POST /auth/login e GET /auth/me.Buscar perfil autenticado com token válido retorna dados do usuário</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:42 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='60'>Listar todos os produtos com token válido</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Listar todos os produtos com token válido</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='72'>Buscar produto por ID válido retorna produto</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Buscar produto por ID válido retorna produto</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='85'>Criar produto com dados válidos retorna produto criado</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Criar produto com dados válidos retorna produto criado</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='96'>Atualizar parcialmente produto existente com dados válidos</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Atualizar parcialmente produto existente com dados válidos</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:07:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='59' id='106'>Deletar produto existente retorna sucesso</a>
+<div class="">
+<span class="badge badge-default">Produtos - CRUD completo em /products.Deletar produto existente retorna sucesso</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 26, 2026 10:07:37 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 26, 2026 10:07:44 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>2</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>12</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>64</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Autenticação - POST /auth/login e GET /auth/me":3.809,"Produtos - CRUD completo em /products":1.972
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@products</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@auth</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@negativo</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@positivo</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@smoke</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 12,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 64,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
