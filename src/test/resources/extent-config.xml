@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>dark</theme>
+        <encoding>UTF-8</encoding>
+        <documentTitle>DummyJSON API — Relatório de Testes</documentTitle>
+        <reportName>Suíte de Testes Automatizados</reportName>
+        <timeStampFormat>dd/MM/yyyy HH:mm:ss</timeStampFormat>
+        <css>
+            pre { font-family: 'Fira Code', monospace; font-size: 13px; }
+            .badge-primary { background-color: #4e73df; }
+        </css>
+    </configuration>
+</extentreports>

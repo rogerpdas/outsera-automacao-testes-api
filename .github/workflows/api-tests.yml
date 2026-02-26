@@ -1,0 +1,70 @@
+name: API Tests — Desafio Outsera
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  test:
+    name: Executar testes de API
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Java 17 (Temurin)
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'maven'
+
+      - name: Exibir versões do ambiente
+        run: |
+          java -version
+          mvn -version
+
+      - name: Executar testes com Maven
+        run: mvn test -Denv=hom --batch-mode --no-transfer-progress
+
+      - name: Publicar Extent Report como artefato
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: extent-report-${{ github.run_number }}
+          path: target/extent-reports/
+          retention-days: 30
+
+      - name: Sumário dos resultados no log
+        if: always()
+        run: |
+          echo "=================================================="
+          echo "         SUMÁRIO DE TESTES — Desafio Outsera      "
+          echo "=================================================="
+          if [ -f target/extent-reports/report.html ]; then
+            PASSED=$(grep -o 'pass' target/extent-reports/report.html | wc -l)
+            FAILED=$(grep -o 'fail' target/extent-reports/report.html | wc -l)
+            echo "✅ Passou : $PASSED"
+            echo "❌ Falhou : $FAILED"
+            echo "📄 Relatório gerado em: target/extent-reports/report.html"
+          else
+            echo "⚠️  Relatório Extent não encontrado."
+          fi
+          echo "=================================================="
+
+      - name: Deploy do Extent Report para GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: always() && github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: target/extent-reports/
+          publish_branch: gh-pages
+          commit_message: "ci: atualiza relatório de testes - run #${{ github.run_number }}"

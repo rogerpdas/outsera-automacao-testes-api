@@ -1,0 +1,13 @@
+utils\RequestBuilder.class
+steps\AuthSteps.class
+models\AuthPayload.class
+utils\ExtentReportManager.class
+utils\CurlLogger.class
+services\ProductService.class
+steps\ProductsSteps.class
+models\ProductPayload.class
+utils\ScenarioContext.class
+services\AuthService.class
+utils\ConfigurationManager.class
+hooks\Hooks.class
+runner\TestRunner.class
