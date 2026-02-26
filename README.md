@@ -118,6 +118,9 @@ mvn test -Dcucumber.filter.tags="@products"
 # Combinação de tags
 mvn test -Dcucumber.filter.tags="@smoke and @products"
 mvn test -Dcucumber.filter.tags="@negativo and not @auth"
+
+# Todos os testes
+mvn test
 ```
 
 ---
