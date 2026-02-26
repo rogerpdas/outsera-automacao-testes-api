@@ -8,7 +8,7 @@ import utils.ScenarioContext;
 
 /**
  * Hooks Cucumber que gerenciam o ciclo de vida de cada cenário:
- * - @Before: inicializa o teste no Extent Report
+ * - @Before: inicializa os testes no Extent Report
  * - @After:  finaliza o teste, registra status e libera contexto
  */
 public class Hooks {
