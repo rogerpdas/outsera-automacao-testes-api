@@ -57,7 +57,10 @@ jobs:
           else
             echo "⚠️  Arquivo de sumário não encontrado."
           fi
+          echo "=================================================="
           echo "📄 Relatório visual: https://rogerpdas.github.io/outsera-automacao-testes-api/"
+          echo "📄 Relatório HTML: https://rogerpdas.github.io/outsera-automacao-testes-api/report.html"
+          echo "📄 Relatório API: https://rogerpdas.github.io/outsera-automacao-testes-api/api-test-report.html"
           echo "=================================================="
 
       - name: Deploy do Extent Report para GitHub Pages
