@@ -97,8 +97,31 @@ public class ExtentReportManager {
     }
 
     public static void flush() {
-        if (extent != null)
-            extent.flush();
+        if (extent == null)
+            return;
+        extent.flush();
+        writeSummary();
+    }
+
+    private static void writeSummary() {
+        try {
+            int passed = (int) extent.getReport().getTestList().stream()
+                    .filter(t -> t.getStatus() == com.aventstack.extentreports.Status.PASS)
+                    .count();
+            int failed = (int) extent.getReport().getTestList().stream()
+                    .filter(t -> t.getStatus() == com.aventstack.extentreports.Status.FAIL)
+                    .count();
+            int total = passed + failed;
+
+            String summary = String.format(
+                    "TOTAL=%d%nPASSED=%d%nFAILED=%d%n", total, passed, failed);
+
+            java.nio.file.Files.writeString(
+                    java.nio.file.Path.of("target/extent-reports/summary.properties"),
+                    summary);
+        } catch (Exception e) {
+            System.err.println("Erro ao gravar sumário: " + e.getMessage());
+        }
     }
 
     private static String escapeHtml(String text) {

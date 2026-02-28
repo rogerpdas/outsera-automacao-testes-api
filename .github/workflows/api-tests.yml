@@ -47,17 +47,17 @@ jobs:
         if: always()
         run: |
           echo "=================================================="
-          echo "         SUMÁRIO DE TESTES — Desafio Outsera      "
+          echo "         SUMÁRIO DE TESTES — DummyJSON            "
           echo "=================================================="
-          if [ -f target/extent-reports/report.html ]; then
-            PASSED=$(grep -o 'pass' target/extent-reports/report.html | wc -l)
-            FAILED=$(grep -o 'fail' target/extent-reports/report.html | wc -l)
+          if [ -f target/extent-reports/summary.properties ]; then
+            source target/extent-reports/summary.properties
             echo "✅ Passou : $PASSED"
             echo "❌ Falhou : $FAILED"
-            echo "📄 Relatório gerado em: target/extent-reports/report.html"
+            echo "📊 Total  : $TOTAL"
           else
-            echo "⚠️  Relatório Extent não encontrado."
+            echo "⚠️  Arquivo de sumário não encontrado."
           fi
+          echo "📄 Relatório visual: https://rogerpdas.github.io/outsera-automacao-testes-api/"
           echo "=================================================="
 
       - name: Deploy do Extent Report para GitHub Pages

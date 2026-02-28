@@ -6,7 +6,7 @@ Projeto de testes automatizados de API REST utilizando **RestAssured + Cucumber 
 
 ---
 
-## 📐 Arquitetura
+## Arquitetura
 
 ```
 api-automation-dummyjson/
@@ -30,10 +30,11 @@ api-automation-dummyjson/
 │       │   │   ├── AuthSteps.java   # Steps de autenticação
 │       │   │   └── ProductsSteps.java # Steps de produtos
 │       │   └── utils/
-│       │       ├── ScenarioContext.java  # Estado compartilhado entre steps
-│       │       ├── RequestBuilder.java   # Construção/envio de requisições
+│       │       ├── ConfigurationManager.java # Gerenciador de propriedades (ambientes)
 │       │       ├── CurlLogger.java       # Filtro RestAssured → gera cURL
-│       │       └── ExtentReportManager.java # Relatório HTML
+│       │       ├── ExtentReportManager.java # Relatório HTML
+│       │       ├── RequestBuilder.java   # Construção/envio de requisições
+│       │       └── ScenarioContext.java  # Estado compartilhado entre steps
 │       └── resources/
 │           ├── features/
 │           │   ├── auth.feature     # Cenários de autenticação
@@ -41,6 +42,8 @@ api-automation-dummyjson/
 │           ├── schemas/
 │           │   ├── auth-login-schema.json  # Schema validation JSON
 │           │   └── ... 
+│           ├── config-hom.properties # Config de homologação
+│           ├── config-prod.properties # Config de produção
 │           ├── extent.properties    # Config do Extent Report
 │           └── extent-config.xml    # Config XML do Extent Report
 ├── pom.xml
@@ -49,7 +52,7 @@ api-automation-dummyjson/
 
 ---
 
-## 📦 Dependências
+## Dependências
 
 | Biblioteca                           | Versão  |
 |--------------------------------------|---------|
@@ -67,7 +70,7 @@ api-automation-dummyjson/
 
 ---
 
-## ⚙️ Pré-requisitos
+## Pré-requisitos
 
 - Java 17 ou superior
 - Maven 3.8+
@@ -81,7 +84,7 @@ mvn -version
 
 ---
 
-## 🚀 Como executar
+## Como executar
 
 ### 1. Clone o repositório
 ```bash
@@ -125,7 +128,7 @@ mvn test
 
 ---
 
-## 📊 Relatório
+## Relatório
 
 Após execução, o relatório HTML é gerado em:
 ```
@@ -150,7 +153,7 @@ O relatório contém:
 
 ---
 
-## ✅ Tipos de Validação
+## Tipos de Validação
 
 Este framework está preparado para avaliar a qualidade e a conformidade das respostas da API de ponta a ponta:
 
@@ -161,7 +164,7 @@ Este framework está preparado para avaliar a qualidade e a conformidade das res
 
 ---
 
-## 🔄 CI/CD — GitHub Actions
+## CI/CD — GitHub Actions
 
 O pipeline é disparado automaticamente em **push** e **pull_request** para as branches `main` e `develop`.
 
@@ -177,7 +180,7 @@ Após cada execução, os artefatos ficam disponíveis em **Actions → Workflow
 
 ---
 
-## 🏷️ Tags disponíveis
+## Tags disponíveis
 
 | Tag          | Descrição                              |
 |--------------|----------------------------------------|
@@ -189,7 +192,7 @@ Após cada execução, os artefatos ficam disponíveis em **Actions → Workflow
 
 ---
 
-## 📡 Endpoints testados
+## Endpoints testados
 
 | Método | Endpoint           | Descrição                     |
 |--------|--------------------|-------------------------------|
@@ -203,7 +206,7 @@ Após cada execução, os artefatos ficam disponíveis em **Actions → Workflow
 
 ---
 
-## 🤝 Contribuindo
+## Contribuindo
 
 1. Crie uma branch: `git checkout -b feat/novo-cenario`
 2. Adicione seus testes em `src/test/resources/features/`

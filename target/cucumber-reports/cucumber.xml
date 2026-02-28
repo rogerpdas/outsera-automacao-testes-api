@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="17.051" tests="12" skipped="0" failures="0" errors="0">
-<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Login com credenciais válidas retorna token JWT" time="8.691">
+<testsuite name="Cucumber" time="12.076" tests="12" skipped="0" failures="0" errors="0">
+<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Login com credenciais válidas retorna token JWT" time="4.65">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 Quando realizo login com usuário "emilys" e senha "emilyspass"..............passed
@@ -11,28 +11,28 @@ E o corpo da resposta deve conter o campo "accessToken".....................pass
 E o token JWT é armazenado para uso posterior...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Login com senha incorreta retorna erro de autenticação" time="0.319">
+<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Login com senha incorreta retorna erro de autenticação" time="0.264">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 Quando realizo login com usuário "emilys" e senha "senhaerrada".............passed
 Então o status code da resposta deve ser 400................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Login com username ausente retorna erro de validação" time="0.355">
+<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Login com username ausente retorna erro de validação" time="0.262">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 Quando realizo login com a senha "emilyspass" e titulo nulo.................passed
 Então o status code da resposta deve ser 400................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Login com payload malformado retorna erro" time="0.333">
+<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Login com payload malformado retorna erro" time="0.224">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 Quando realizo uma requisição POST para "/auth/login" com corpo malformado "nao-e-json".passed
 Então o status code da resposta deve ser 400................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Buscar perfil autenticado com token válido retorna dados do usuário" time="0.964">
+<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Buscar perfil autenticado com token válido retorna dados do usuário" time="0.553">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 Dado que estou autenticado com credenciais válidas..........................passed
@@ -43,21 +43,21 @@ E o corpo da resposta deve conter o campo "username"........................pass
 E o campo "username" da resposta deve ser "emilys"..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Buscar perfil sem token retorna erro de autenticação" time="0.281">
+<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Buscar perfil sem token retorna erro de autenticação" time="0.224">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 Quando busco meu perfil logado sem token....................................passed
 Então o status code da resposta deve ser 401................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Buscar perfil com token inválido retorna erro de autenticação" time="0.272">
+<testcase classname="Autenticação - POST /auth/login e GET /auth/me" name="Buscar perfil com token inválido retorna erro de autenticação" time="0.594">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 Quando busco meu perfil logado com token inválido "Bearer token_invalido_xyz".passed
 Então o status code da resposta deve ser 401................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Produtos - CRUD completo em /products" name="Listar todos os produtos com token válido" time="1.977">
+<testcase classname="Produtos - CRUD completo em /products" name="Listar todos os produtos com token válido" time="1.25">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 E que estou autenticado com credenciais válidas.............................passed
@@ -69,7 +69,7 @@ E o corpo da resposta deve conter o campo "products"........................pass
 E o campo "total" da resposta deve ser maior que 0..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Produtos - CRUD completo em /products" name="Buscar produto por ID válido retorna produto" time="1.006">
+<testcase classname="Produtos - CRUD completo em /products" name="Buscar produto por ID válido retorna produto" time="0.571">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 E que estou autenticado com credenciais válidas.............................passed
@@ -82,7 +82,7 @@ E o corpo da resposta deve conter o campo "title"...........................pass
 E o corpo da resposta deve conter o campo "price"...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Produtos - CRUD completo em /products" name="Criar produto com dados válidos retorna produto criado" time="0.778">
+<testcase classname="Produtos - CRUD completo em /products" name="Criar produto com dados válidos retorna produto criado" time="2.12">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 E que estou autenticado com credenciais válidas.............................passed
@@ -93,7 +93,7 @@ E o header "Content-Type" deve conter "application/json"....................pass
 E o corpo da resposta deve conter o campo "id"..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Produtos - CRUD completo em /products" name="Atualizar parcialmente produto existente com dados válidos" time="0.679">
+<testcase classname="Produtos - CRUD completo em /products" name="Atualizar parcialmente produto existente com dados válidos" time="0.52">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 E que estou autenticado com credenciais válidas.............................passed
@@ -103,7 +103,7 @@ E o contrato da resposta deve respeitar o schema "products-single-schema.json".p
 E o header "Content-Type" deve conter "application/json"....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Produtos - CRUD completo em /products" name="Deletar produto existente retorna sucesso" time="0.567">
+<testcase classname="Produtos - CRUD completo em /products" name="Deletar produto existente retorna sucesso" time="0.488">
 <system-out><![CDATA[
 Dado que o sistema está configurado com a URL base "https://dummyjson.com"..passed
 E que estou autenticado com credenciais válidas.............................passed

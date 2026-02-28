@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="34.373" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="13.507" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-21.0.9\bin"/>
-    <property name="sun.java.command" value="C:\Users\roger\AppData\Local\Temp\surefire10719326635717680845\surefirebooter-20260226193054442_3.jar C:\Users\roger\AppData\Local\Temp\surefire10719326635717680845 2026-02-26T19-30-54_141-jvmRun1 surefire-20260226193054442_1tmp surefire_0-20260226193054442_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\roger\AppData\Local\Temp\surefire293690934667896272\surefirebooter-20260228123811417_3.jar C:\Users\roger\AppData\Local\Temp\surefire293690934667896272 2026-02-28T12-38-11_259-jvmRun1 surefire-20260228123811417_1tmp surefire_0-20260228123811417_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Automacao\Desafio Outsera\outsera-automacao-testes-api\target\test-classes;C:\Automacao\Desafio Outsera\outsera-automacao-testes-api\target\classes;C:\Users\roger\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\roger\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\roger\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\roger\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\roger\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\roger\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\roger\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\roger\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\roger\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\roger\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\roger\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\roger\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\roger\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\roger\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\roger\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\roger\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\roger\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\roger\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\roger\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\roger\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\roger\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\roger\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\roger\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\roger\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\roger\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\roger\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\roger\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\roger\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\roger\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\roger\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\roger\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\roger\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\roger\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\roger\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-picocontainer\7.15.0\cucumber-picocontainer-7.15.0.jar;C:\Users\roger\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\roger\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\roger\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\roger\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\roger\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\roger\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\roger\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\roger\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\roger\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\roger\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\roger\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\roger\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\roger\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\roger\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\roger\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\roger\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\roger\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\roger\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\roger\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\roger\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\roger\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\roger\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\roger\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\roger\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\roger\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\roger\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\roger\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\roger\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\roger\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\roger\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\roger\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\roger\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\roger\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\roger\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\roger\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\roger\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\roger\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\roger\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\roger\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\roger\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\roger\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\roger\.m2\repository\org\slf4j\slf4j-simple\2.0.11\slf4j-simple-2.0.11.jar;C:\Users\roger\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="extent.reporter.spark.start" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\roger\AppData\Local\Temp\surefire10719326635717680845\surefirebooter-20260226193054442_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\roger\AppData\Local\Temp\surefire293690934667896272\surefirebooter-20260228123811417_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
@@ -50,6 +50,7 @@
     <property name="user.dir" value="C:\Automacao\Desafio Outsera\outsera-automacao-testes-api"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env" value="hom"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\OpenJDK\jdk-21.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\roger\AppData\Local\Programs\cursor\resources\app\bin;C:\Ruby31-x64\bin;C:\Users\roger\AppData\Local\Android\Sdk\tools;C:\Users\roger\AppData\Local\Android\Sdk\tools\bin;C:\Drivers Browser;C:\Users\roger\AppData\Local\Android\Sdk\tools\lib;C:\Users\roger\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\OpenJDK\jdk-21.0.9\bin;C:\Program Files\Maven\apache-maven-3.8.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\k6\;C:\Program Files\nodejs\;C:\Users\roger\.local\bin\;c:\Users\roger\AppData\Local\Programs\Trae\bin;C:\Users\roger\scoop\shims;C:\Users\roger\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\roger\AppData\Local\Programs\Python\Python39\;C:\Users\roger\AppData\Local\Microsoft\WindowsApps;C:\Users\roger\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roger\.dotnet\tools;C:\Users\roger\AppData\Local\Programs\Fiddler;C:\Program Files\Azure Data Studio\bin;C:\Users\roger\AppData\Local\Coursier\data\bin;C:\Users\roger\AppData\Local\Microsoft\WindowsApps;C:\Users\roger\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\roger\AppData\Local\GitHubDesktop\bin;C:\ProgramData\roger\GitHubDesktop\bin;C:\Users\roger\AppData\Local\Programs\Antigravity\bin;C:\Users\roger\AppData\Roaming\npm;c:\Users\roger\.antigravity\extensions\vscjava.vscode-java-debug-0.58.5-universal\bundled\scripts\noConfigScripts;."/>
@@ -60,11 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Login com credenciais válidas retorna token JWT" classname="Autenticação - POST /auth/login e GET /auth/me" time="8.96">
+  <testcase name="Login com credenciais válidas retorna token JWT" classname="Autenticação - POST /auth/login e GET /auth/me" time="4.799">
     <system-out><![CDATA[
 @auth @smoke @positivo
-Cenário: Login com credenciais válidas retorna token JWT                     # src/test/resources/features/auth.feature:10
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com" # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Login com credenciais válidas retorna token JWT                     &amp#27;[90m# src/test/resources/features/auth.feature:10&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -82,8 +83,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNjQsImV4cCI6MTc3MjE0ODY2NH0.OXOy5dDSgmHcdW5YvjEJZpTQEmSqRLlpd1MocVCsAuE",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNjQsImV4cCI6MTc3NDczNzA2NH0.BfITR-YIdWdQ7K6i_CqWFwea7tnuYcpyMa3I9KYwEsY",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMwOTYsImV4cCI6MTc3MjI5NjY5Nn0.wk8nC-xYbfqg7VgHvz2N5PaTQh-p59fvFQYaB43aYzE",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMwOTYsImV4cCI6MTc3NDg4NTA5Nn0.iyc2jDeFljpKgPl2JVVbAEjFPwn0WgMqnPMY8lXom9w",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -92,19 +93,19 @@ Body:
     "gender": "female",
     "image": "https://dummyjson.com/icon/emilys/128"
 }
-  Quando realizo login com usuário "emilys" e senha "emilyspass"             # steps.AuthSteps.realizoLoginComUsuarioESenha(java.lang.String,java.lang.String)
-  Então o status code da resposta deve ser 200                               # steps.AuthSteps.validarStatusCode(int)
-  E o contrato da resposta deve respeitar o schema "auth-login-schema.json"  # steps.AuthSteps.validarSchema(java.lang.String)
-  E o header "Content-Type" deve conter "application/json"                   # steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)
-  E o corpo da resposta deve conter o campo "accessToken"                    # steps.AuthSteps.validarCampoNoCorpo(java.lang.String)
-  E o token JWT é armazenado para uso posterior                              # steps.AuthSteps.armazenarToken()
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mrealizo login com usuário &amp#27;[0m&amp#27;[32m&amp#27;[1m"emilys"&amp#27;[0m&amp#27;[32m e senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"emilyspass"&amp#27;[0m             &amp#27;[90m# steps.AuthSteps.realizoLoginComUsuarioESenha(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo contrato da resposta deve respeitar o schema &amp#27;[0m&amp#27;[32m&amp#27;[1m"auth-login-schema.json"&amp#27;[0m  &amp#27;[90m# steps.AuthSteps.validarSchema(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo header &amp#27;[0m&amp#27;[32m&amp#27;[1m"Content-Type"&amp#27;[0m&amp#27;[32m deve conter &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo corpo da resposta deve conter o campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"accessToken"&amp#27;[0m                    &amp#27;[90m# steps.AuthSteps.validarCampoNoCorpo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo token JWT é armazenado para uso posterior&amp#27;[0m                              &amp#27;[90m# steps.AuthSteps.armazenarToken()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login com senha incorreta retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.657">
+  <testcase name="Login com senha incorreta retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.282">
     <system-out><![CDATA[
 @auth @negativo
-Cenário: Login com senha incorreta retorna erro de autenticação              # src/test/resources/features/auth.feature:19
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com" # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Login com senha incorreta retorna erro de autenticação              &amp#27;[90m# src/test/resources/features/auth.feature:19&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -124,15 +125,15 @@ Body:
 {
     "message": "Invalid credentials"
 }
-  Quando realizo login com usuário "emilys" e senha "senhaerrada"            # steps.AuthSteps.realizoLoginComUsuarioESenha(java.lang.String,java.lang.String)
-  Então o status code da resposta deve ser 400                               # steps.AuthSteps.validarStatusCode(int)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mrealizo login com usuário &amp#27;[0m&amp#27;[32m&amp#27;[1m"emilys"&amp#27;[0m&amp#27;[32m e senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"senhaerrada"&amp#27;[0m            &amp#27;[90m# steps.AuthSteps.realizoLoginComUsuarioESenha(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login com username ausente retorna erro de validação" classname="Autenticação - POST /auth/login e GET /auth/me" time="1.585">
+  <testcase name="Login com username ausente retorna erro de validação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.275">
     <system-out><![CDATA[
 @auth @negativo
-Cenário: Login com username ausente retorna erro de validação                # src/test/resources/features/auth.feature:24
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com" # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Login com username ausente retorna erro de validação                &amp#27;[90m# src/test/resources/features/auth.feature:24&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -152,15 +153,15 @@ Body:
 {
     "message": "Username and password required"
 }
-  Quando realizo login com a senha "emilyspass" e titulo nulo                # steps.AuthSteps.realizoLoginComUsernameNulo(java.lang.String)
-  Então o status code da resposta deve ser 400                               # steps.AuthSteps.validarStatusCode(int)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mrealizo login com a senha &amp#27;[0m&amp#27;[32m&amp#27;[1m"emilyspass"&amp#27;[0m&amp#27;[32m e titulo nulo&amp#27;[0m                &amp#27;[90m# steps.AuthSteps.realizoLoginComUsernameNulo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login com payload malformado retorna erro" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.193">
+  <testcase name="Login com payload malformado retorna erro" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.257">
     <system-out><![CDATA[
 @auth @negativo
-Cenário: Login com payload malformado retorna erro                                        # src/test/resources/features/auth.feature:29
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com"              # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Login com payload malformado retorna erro                                        &amp#27;[90m# src/test/resources/features/auth.feature:29&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m              &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -177,15 +178,15 @@ nao-e-json
 {
     "message": "Username and password required"
 }
-  Quando realizo uma requisição POST para "/auth/login" com corpo malformado "nao-e-json" # steps.AuthSteps.postarComCorpoMalformado(java.lang.String,java.lang.String)
-  Então o status code da resposta deve ser 400                                            # steps.AuthSteps.validarStatusCode(int)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mrealizo uma requisição POST para &amp#27;[0m&amp#27;[32m&amp#27;[1m"/auth/login"&amp#27;[0m&amp#27;[32m com corpo malformado &amp#27;[0m&amp#27;[32m&amp#27;[1m"nao-e-json"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.postarComCorpoMalformado(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                                            &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar perfil autenticado com token válido retorna dados do usuário" classname="Autenticação - POST /auth/login e GET /auth/me" time="5.126">
+  <testcase name="Buscar perfil autenticado com token válido retorna dados do usuário" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.698">
     <system-out><![CDATA[
 @auth @smoke @positivo
-Cenário: Buscar perfil autenticado com token válido retorna dados do usuário # src/test/resources/features/auth.feature:35
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com" # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Buscar perfil autenticado com token válido retorna dados do usuário &amp#27;[90m# src/test/resources/features/auth.feature:35&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -203,8 +204,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNjksImV4cCI6MTc3MjE0ODY2OX0.i-R6QWYW-KaH_oLdFAa6gC2psoywf6Khu6u8Mc2ZKVE",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNjksImV4cCI6MTc3NDczNzA2OX0.5ODFtikOD6YIaN6S-3jPHd6fSwAoMXyQLRlU1lS0fJI",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMwOTksImV4cCI6MTc3MjI5NjY5OX0.IZOWPBJSBByxZYdB4-b2V0SCLDzAmTi8WNfk2P2xA0k",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMwOTksImV4cCI6MTc3NDg4NTA5OX0.N6rBuohWzhpUIcD3zhbur6aU_83gEFwN-RYM86pWDpQ",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -213,7 +214,7 @@ Body:
     "gender": "female",
     "image": "https://dummyjson.com/icon/emilys/128"
 }
-  Dado que estou autenticado com credenciais válidas                         # steps.AuthSteps.autenticarComCredenciaisValidas()
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque estou autenticado com credenciais válidas&amp#27;[0m                         &amp#27;[90m# steps.AuthSteps.autenticarComCredenciaisValidas()&amp#27;[0m
 Request method:	GET
 Request URI:	https://dummyjson.com/auth/me
 Proxy:			<none>
@@ -221,7 +222,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNjksImV4cCI6MTc3MjE0ODY2OX0.i-R6QWYW-KaH_oLdFAa6gC2psoywf6Khu6u8Mc2ZKVE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMwOTksImV4cCI6MTc3MjI5NjY5OX0.IZOWPBJSBByxZYdB4-b2V0SCLDzAmTi8WNfk2P2xA0k
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -296,18 +297,18 @@ Body:			<none>
     },
     "role": "admin"
 }
-  Quando busco meu perfil logado                                             # steps.AuthSteps.buscoMeuPerfilLogado()
-  Então o status code da resposta deve ser 200                               # steps.AuthSteps.validarStatusCode(int)
-  E o header "Content-Type" deve conter "application/json"                   # steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)
-  E o corpo da resposta deve conter o campo "username"                       # steps.AuthSteps.validarCampoNoCorpo(java.lang.String)
-  E o campo "username" da resposta deve ser "emilys"                         # steps.AuthSteps.validarValorCampo(java.lang.String,java.lang.String)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mbusco meu perfil logado&amp#27;[0m                                             &amp#27;[90m# steps.AuthSteps.buscoMeuPerfilLogado()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo header &amp#27;[0m&amp#27;[32m&amp#27;[1m"Content-Type"&amp#27;[0m&amp#27;[32m deve conter &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo corpo da resposta deve conter o campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m                       &amp#27;[90m# steps.AuthSteps.validarCampoNoCorpo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m&amp#27;[32m da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"emilys"&amp#27;[0m                         &amp#27;[90m# steps.AuthSteps.validarValorCampo(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar perfil sem token retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.171">
+  <testcase name="Buscar perfil sem token retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.075">
     <system-out><![CDATA[
 @auth @negativo
-Cenário: Buscar perfil sem token retorna erro de autenticação                # src/test/resources/features/auth.feature:44
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com" # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Buscar perfil sem token retorna erro de autenticação                &amp#27;[90m# src/test/resources/features/auth.feature:44&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	GET
 Request URI:	https://dummyjson.com/auth/me
 Proxy:			<none>
@@ -322,15 +323,15 @@ Body:			<none>
 {
     "message": "Access Token is required"
 }
-  Quando busco meu perfil logado sem token                                   # steps.AuthSteps.buscoMeuPerfilLogadoSemToken()
-  Então o status code da resposta deve ser 401                               # steps.AuthSteps.validarStatusCode(int)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mbusco meu perfil logado sem token&amp#27;[0m                                   &amp#27;[90m# steps.AuthSteps.buscoMeuPerfilLogadoSemToken()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m401&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar perfil com token inválido retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="1.257">
+  <testcase name="Buscar perfil com token inválido retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.592">
     <system-out><![CDATA[
 @auth @negativo
-Cenário: Buscar perfil com token inválido retorna erro de autenticação          # src/test/resources/features/auth.feature:49
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com"    # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Buscar perfil com token inválido retorna erro de autenticação          &amp#27;[90m# src/test/resources/features/auth.feature:49&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m    &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	GET
 Request URI:	https://dummyjson.com/auth/me
 Proxy:			<none>
@@ -346,15 +347,15 @@ Body:			<none>
 {
     "message": "Invalid/Expired Token!"
 }
-  Quando busco meu perfil logado com token inválido "Bearer token_invalido_xyz" # steps.AuthSteps.buscoMeuPerfilLogadoComTokenInvalido(java.lang.String)
-  Então o status code da resposta deve ser 401                                  # steps.AuthSteps.validarStatusCode(int)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mbusco meu perfil logado com token inválido &amp#27;[0m&amp#27;[32m&amp#27;[1m"Bearer token_invalido_xyz"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.buscoMeuPerfilLogadoComTokenInvalido(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m401&amp#27;[0m                                  &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Listar todos os produtos com token válido" classname="Produtos - CRUD completo em /products" time="12.015">
+  <testcase name="Listar todos os produtos com token válido" classname="Produtos - CRUD completo em /products" time="3.712">
     <system-out><![CDATA[
 @products @smoke @positivo
-Cenário: Listar todos os produtos com token válido                             # src/test/resources/features/products.feature:11
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com"   # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Listar todos os produtos com token válido                             &amp#27;[90m# src/test/resources/features/products.feature:11&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m   &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -372,8 +373,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzAsImV4cCI6MTc3MjE0ODY3MH0.db9cJoXc2o72VKRJiQnSobqcx7FS5CsXglR82un3jvk",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzAsImV4cCI6MTc3NDczNzA3MH0.E1lCAGC-AFsMT7j4xacOoylYXbO9KsT8JR7GCvUXqO8",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDAsImV4cCI6MTc3MjI5NjcwMH0.KBlWjSNV-0pMgwiiqE9MYjlmaF2OtN5YfF2JGxlVkM0",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDAsImV4cCI6MTc3NDg4NTEwMH0.eDVvfsJl3ffjN_36EHY2dvo2GPSnYcqdfOH_C2_6m2k",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -382,7 +383,7 @@ Body:
     "gender": "female",
     "image": "https://dummyjson.com/icon/emilys/128"
 }
-  E que estou autenticado com credenciais válidas                              # steps.AuthSteps.autenticarComCredenciaisValidas()
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mque estou autenticado com credenciais válidas&amp#27;[0m                              &amp#27;[90m# steps.AuthSteps.autenticarComCredenciaisValidas()&amp#27;[0m
 Request method:	GET
 Request URI:	https://dummyjson.com/auth/products
 Proxy:			<none>
@@ -390,7 +391,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzAsImV4cCI6MTc3MjE0ODY3MH0.db9cJoXc2o72VKRJiQnSobqcx7FS5CsXglR82un3jvk
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDAsImV4cCI6MTc3MjI5NjcwMH0.KBlWjSNV-0pMgwiiqE9MYjlmaF2OtN5YfF2JGxlVkM0
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -2198,19 +2199,19 @@ Body:			<none>
     "skip": 0,
     "limit": 30
 }
-  Quando listo todos os produtos                                               # steps.ProductsSteps.listAll()
-  Então o status code da resposta deve ser 200                                 # steps.AuthSteps.validarStatusCode(int)
-  E o contrato da resposta deve respeitar o schema "products-list-schema.json" # steps.AuthSteps.validarSchema(java.lang.String)
-  E o header "Content-Type" deve conter "application/json"                     # steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)
-  E o corpo da resposta deve conter o campo "products"                         # steps.AuthSteps.validarCampoNoCorpo(java.lang.String)
-  E o campo "total" da resposta deve ser maior que 0                           # steps.AuthSteps.validarCampoMaiorQue(java.lang.String,int)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mlisto todos os produtos&amp#27;[0m                                               &amp#27;[90m# steps.ProductsSteps.listAll()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                 &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo contrato da resposta deve respeitar o schema &amp#27;[0m&amp#27;[32m&amp#27;[1m"products-list-schema.json"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.validarSchema(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo header &amp#27;[0m&amp#27;[32m&amp#27;[1m"Content-Type"&amp#27;[0m&amp#27;[32m deve conter &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m                     &amp#27;[90m# steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo corpo da resposta deve conter o campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"products"&amp#27;[0m                         &amp#27;[90m# steps.AuthSteps.validarCampoNoCorpo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"total"&amp#27;[0m&amp#27;[32m da resposta deve ser maior que &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                           &amp#27;[90m# steps.AuthSteps.validarCampoMaiorQue(java.lang.String,int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar produto por ID válido retorna produto" classname="Produtos - CRUD completo em /products" time="0.984">
+  <testcase name="Buscar produto por ID válido retorna produto" classname="Produtos - CRUD completo em /products" time="0.142">
     <system-out><![CDATA[
 @products @smoke @positivo
-Cenário: Buscar produto por ID válido retorna produto                            # src/test/resources/features/products.feature:31
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com"     # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Buscar produto por ID válido retorna produto                            &amp#27;[90m# src/test/resources/features/products.feature:31&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m     &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -2228,8 +2229,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzIsImV4cCI6MTc3MjE0ODY3Mn0.cDqBdSbzA_uxZLL8R5ABm7S3MrUOfIpPZWpmyupdvpQ",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzIsImV4cCI6MTc3NDczNzA3Mn0.nERrc7s5KWUflWTLl0vOzLkV9p90zpE7MCQBE7VwMy0",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDEsImV4cCI6MTc3MjI5NjcwMX0.gA2D7BcZj9mYeNJq8dnBybiDFB6_FV2PWugqyrMWqYM",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDEsImV4cCI6MTc3NDg4NTEwMX0.ugLV4sSPxzlF_KKoLSouIcOPUGEDAwxcGhiIN8MioY0",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -2238,7 +2239,7 @@ Body:
     "gender": "female",
     "image": "https://dummyjson.com/icon/emilys/128"
 }
-  E que estou autenticado com credenciais válidas                                # steps.AuthSteps.autenticarComCredenciaisValidas()
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mque estou autenticado com credenciais válidas&amp#27;[0m                                &amp#27;[90m# steps.AuthSteps.autenticarComCredenciaisValidas()&amp#27;[0m
 Request method:	GET
 Request URI:	https://dummyjson.com/auth/products/1
 Proxy:			<none>
@@ -2246,7 +2247,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzIsImV4cCI6MTc3MjE0ODY3Mn0.cDqBdSbzA_uxZLL8R5ABm7S3MrUOfIpPZWpmyupdvpQ
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDEsImV4cCI6MTc3MjI5NjcwMX0.gA2D7BcZj9mYeNJq8dnBybiDFB6_FV2PWugqyrMWqYM
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -2311,20 +2312,20 @@ Body:			<none>
     ],
     "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
 }
-  Quando busco o produto de ID 1                                                 # steps.ProductsSteps.getById(int)
-  Então o status code da resposta deve ser 200                                   # steps.AuthSteps.validarStatusCode(int)
-  E o contrato da resposta deve respeitar o schema "products-single-schema.json" # steps.AuthSteps.validarSchema(java.lang.String)
-  E o header "Content-Type" deve conter "application/json"                       # steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)
-  E o corpo da resposta deve conter o campo "id"                                 # steps.AuthSteps.validarCampoNoCorpo(java.lang.String)
-  E o corpo da resposta deve conter o campo "title"                              # steps.AuthSteps.validarCampoNoCorpo(java.lang.String)
-  E o corpo da resposta deve conter o campo "price"                              # steps.AuthSteps.validarCampoNoCorpo(java.lang.String)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mbusco o produto de ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                                                 &amp#27;[90m# steps.ProductsSteps.getById(int)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                   &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo contrato da resposta deve respeitar o schema &amp#27;[0m&amp#27;[32m&amp#27;[1m"products-single-schema.json"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.validarSchema(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo header &amp#27;[0m&amp#27;[32m&amp#27;[1m"Content-Type"&amp#27;[0m&amp#27;[32m deve conter &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m                       &amp#27;[90m# steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo corpo da resposta deve conter o campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"id"&amp#27;[0m                                 &amp#27;[90m# steps.AuthSteps.validarCampoNoCorpo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo corpo da resposta deve conter o campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"title"&amp#27;[0m                              &amp#27;[90m# steps.AuthSteps.validarCampoNoCorpo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo corpo da resposta deve conter o campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"price"&amp#27;[0m                              &amp#27;[90m# steps.AuthSteps.validarCampoNoCorpo(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Criar produto com dados válidos retorna produto criado" classname="Produtos - CRUD completo em /products" time="0.323">
+  <testcase name="Criar produto com dados válidos retorna produto criado" classname="Produtos - CRUD completo em /products" time="0.136">
     <system-out><![CDATA[
 @products @smoke @positivo
-Cenário: Criar produto com dados válidos retorna produto criado                     # src/test/resources/features/products.feature:57
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com"        # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Criar produto com dados válidos retorna produto criado                     &amp#27;[90m# src/test/resources/features/products.feature:57&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m        &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -2342,8 +2343,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzMsImV4cCI6MTc3MjE0ODY3M30.pME24YPNHd3zoS_Ymxs6QbsF0fV_8p3HIxk3jUx0Cyg",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzMsImV4cCI6MTc3NDczNzA3M30.69Arby1jB5q0pL2itjCBxQdKYhvrvPTZ5Jjw3TmSGuQ",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDIsImV4cCI6MTc3MjI5NjcwMn0.hyyN63NekPsIJHX3X5OM3YkGlce9NkaH_fyYUxD4SNA",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDIsImV4cCI6MTc3NDg4NTEwMn0.nra1WfNMareOuRgyChmosDsifIft-COGsKKKzGfqEME",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -2352,7 +2353,7 @@ Body:
     "gender": "female",
     "image": "https://dummyjson.com/icon/emilys/128"
 }
-  E que estou autenticado com credenciais válidas                                   # steps.AuthSteps.autenticarComCredenciaisValidas()
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mque estou autenticado com credenciais válidas&amp#27;[0m                                   &amp#27;[90m# steps.AuthSteps.autenticarComCredenciaisValidas()&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/products/add
 Proxy:			<none>
@@ -2360,7 +2361,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzMsImV4cCI6MTc3MjE0ODY3M30.pME24YPNHd3zoS_Ymxs6QbsF0fV_8p3HIxk3jUx0Cyg
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDIsImV4cCI6MTc3MjI5NjcwMn0.hyyN63NekPsIJHX3X5OM3YkGlce9NkaH_fyYUxD4SNA
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -2381,18 +2382,18 @@ Body:
     "description": "Produto criado via automação",
     "category": "smartphones"
 }
-  Quando eu crio um novo produto com titulo "Produto Teste Automação" e preço 99.99 # steps.ProductsSteps.createProduct(java.lang.String,java.lang.Double)
-  Então o status code da resposta deve ser 201                                      # steps.AuthSteps.validarStatusCode(int)
-  E o contrato da resposta deve respeitar o schema "products-single-schema.json"    # steps.AuthSteps.validarSchema(java.lang.String)
-  E o header "Content-Type" deve conter "application/json"                          # steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)
-  E o corpo da resposta deve conter o campo "id"                                    # steps.AuthSteps.validarCampoNoCorpo(java.lang.String)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32meu crio um novo produto com titulo &amp#27;[0m&amp#27;[32m&amp#27;[1m"Produto Teste Automação"&amp#27;[0m&amp#27;[32m e preço &amp#27;[0m&amp#27;[32m&amp#27;[1m99.99&amp#27;[0m &amp#27;[90m# steps.ProductsSteps.createProduct(java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                                      &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo contrato da resposta deve respeitar o schema &amp#27;[0m&amp#27;[32m&amp#27;[1m"products-single-schema.json"&amp#27;[0m    &amp#27;[90m# steps.AuthSteps.validarSchema(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo header &amp#27;[0m&amp#27;[32m&amp#27;[1m"Content-Type"&amp#27;[0m&amp#27;[32m deve conter &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m                          &amp#27;[90m# steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo corpo da resposta deve conter o campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"id"&amp#27;[0m                                    &amp#27;[90m# steps.AuthSteps.validarCampoNoCorpo(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Atualizar parcialmente produto existente com dados válidos" classname="Produtos - CRUD completo em /products" time="0.397">
+  <testcase name="Atualizar parcialmente produto existente com dados válidos" classname="Produtos - CRUD completo em /products" time="0.547">
     <system-out><![CDATA[
 @products @smoke @positivo
-Cenário: Atualizar parcialmente produto existente com dados válidos                      # src/test/resources/features/products.feature:81
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com"             # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Atualizar parcialmente produto existente com dados válidos                      &amp#27;[90m# src/test/resources/features/products.feature:81&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m             &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -2410,8 +2411,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzQsImV4cCI6MTc3MjE0ODY3NH0.QANcRKn2B3p4xc0d9pJjZLqNi2C2NU_e7zo1D5u-Ss4",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzQsImV4cCI6MTc3NDczNzA3NH0.IGd__0FFftSt8PJuNvNOlkLWOnfKCvT-scrAnqr3PYA",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDQsImV4cCI6MTc3MjI5NjcwNH0.LKi7K_c7V2Y00P2rLNuhnUMiXKvrEXRdZwOM89Z1Vbs",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDQsImV4cCI6MTc3NDg4NTEwNH0.kvDDeHgSMp3hMmKvp4DKDYaOYi-vzOjjTIaybx6mCDc",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -2420,7 +2421,7 @@ Body:
     "gender": "female",
     "image": "https://dummyjson.com/icon/emilys/128"
 }
-  E que estou autenticado com credenciais válidas                                        # steps.AuthSteps.autenticarComCredenciaisValidas()
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mque estou autenticado com credenciais válidas&amp#27;[0m                                        &amp#27;[90m# steps.AuthSteps.autenticarComCredenciaisValidas()&amp#27;[0m
 Request method:	PATCH
 Request URI:	https://dummyjson.com/auth/products/1
 Proxy:			<none>
@@ -2428,7 +2429,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzQsImV4cCI6MTc3MjE0ODY3NH0.QANcRKn2B3p4xc0d9pJjZLqNi2C2NU_e7zo1D5u-Ss4
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDQsImV4cCI6MTc3MjI5NjcwNH0.LKi7K_c7V2Y00P2rLNuhnUMiXKvrEXRdZwOM89Z1Vbs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -2456,17 +2457,17 @@ Body:
     "brand": "Essence",
     "category": "beauty"
 }
-  Quando atualizo o produto de ID 1 mudando o titulo para "Produto Atualizado Automação" # steps.ProductsSteps.updateProduct(int,java.lang.String)
-  Então o status code da resposta deve ser 200                                           # steps.AuthSteps.validarStatusCode(int)
-  E o contrato da resposta deve respeitar o schema "products-single-schema.json"         # steps.AuthSteps.validarSchema(java.lang.String)
-  E o header "Content-Type" deve conter "application/json"                               # steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32matualizo o produto de ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m mudando o titulo para &amp#27;[0m&amp#27;[32m&amp#27;[1m"Produto Atualizado Automação"&amp#27;[0m &amp#27;[90m# steps.ProductsSteps.updateProduct(int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                           &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo contrato da resposta deve respeitar o schema &amp#27;[0m&amp#27;[32m&amp#27;[1m"products-single-schema.json"&amp#27;[0m         &amp#27;[90m# steps.AuthSteps.validarSchema(java.lang.String)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo header &amp#27;[0m&amp#27;[32m&amp#27;[1m"Content-Type"&amp#27;[0m&amp#27;[32m deve conter &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Deletar produto existente retorna sucesso" classname="Produtos - CRUD completo em /products" time="0.64">
+  <testcase name="Deletar produto existente retorna sucesso" classname="Produtos - CRUD completo em /products" time="0.535">
     <system-out><![CDATA[
 @products @smoke @positivo
-Cenário: Deletar produto existente retorna sucesso                           # src/test/resources/features/products.feature:104
-  Dado que o sistema está configurado com a URL base "https://dummyjson.com" # steps.AuthSteps.configuraUrlBase(java.lang.String)
+Cenário: Deletar produto existente retorna sucesso                           &amp#27;[90m# src/test/resources/features/products.feature:104&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o sistema está configurado com a URL base &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dummyjson.com"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.configuraUrlBase(java.lang.String)&amp#27;[0m
 Request method:	POST
 Request URI:	https://dummyjson.com/auth/login
 Proxy:			<none>
@@ -2484,8 +2485,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzUsImV4cCI6MTc3MjE0ODY3NX0.5Tcin5tX_UndaCpKgR0FdNwffrfwPqDdpJCpVhDbQgA",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzUsImV4cCI6MTc3NDczNzA3NX0.dM8cxqXeUeja7YTetIMJI97aYeHrOioypvBiDrkEqXU",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDUsImV4cCI6MTc3MjI5NjcwNX0.ZtnLvXnI1S61IGqP0c81F39-_K9Hg441q31gaV-gwhM",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDUsImV4cCI6MTc3NDg4NTEwNX0.AMdk3nvAT4Lkn4Ydn8tDQooU538PYY9liwgpdSOd4XM",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -2494,7 +2495,7 @@ Body:
     "gender": "female",
     "image": "https://dummyjson.com/icon/emilys/128"
 }
-  E que estou autenticado com credenciais válidas                            # steps.AuthSteps.autenticarComCredenciaisValidas()
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mque estou autenticado com credenciais válidas&amp#27;[0m                            &amp#27;[90m# steps.AuthSteps.autenticarComCredenciaisValidas()&amp#27;[0m
 Request method:	DELETE
 Request URI:	https://dummyjson.com/auth/products/1
 Proxy:			<none>
@@ -2502,7 +2503,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIxNDUwNzUsImV4cCI6MTc3MjE0ODY3NX0.5Tcin5tX_UndaCpKgR0FdNwffrfwPqDdpJCpVhDbQgA
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzIyOTMxMDUsImV4cCI6MTc3MjI5NjcwNX0.ZtnLvXnI1S61IGqP0c81F39-_K9Hg441q31gaV-gwhM
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -2567,11 +2568,11 @@ Body:			<none>
     ],
     "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
     "isDeleted": true,
-    "deletedOn": "2026-02-26T22:31:15.506Z"
+    "deletedOn": "2026-02-28T15:38:25.230Z"
 }
-  Quando deleto o produto de ID 1                                            # steps.ProductsSteps.deleteProduct(int)
-  Então o status code da resposta deve ser 200                               # steps.AuthSteps.validarStatusCode(int)
-  E o header "Content-Type" deve conter "application/json"                   # steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mdeleto o produto de ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                                            &amp#27;[90m# steps.ProductsSteps.deleteProduct(int)&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
+  &amp#27;[32mE &amp#27;[0m&amp#27;[32mo header &amp#27;[0m&amp#27;[32m&amp#27;[1m"Content-Type"&amp#27;[0m&amp#27;[32m deve conter &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>
