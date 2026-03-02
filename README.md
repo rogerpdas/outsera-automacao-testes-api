@@ -1,15 +1,15 @@
-# 🧪 API Automation — DummyJSON
+# 🧪 API Automation — Desafio Outsera
 
-[![API Tests](https://github.com/seu-usuario/api-automation-dummyjson/actions/workflows/api-tests.yml/badge.svg)](https://github.com/seu-usuario/api-automation-dummyjson/actions/workflows/api-tests.yml)
+[![API Tests](https://github.com/rogerpdas/outsera-automacao-testes-api/actions/workflows/api-tests.yml/badge.svg)](https://github.com/rogerpdas/outsera-automacao-testes-api/actions/workflows/api-tests.yml)
 
-Projeto de testes automatizados de API REST utilizando **RestAssured + Cucumber BDD + Extent Report**, com pipeline CI/CD via GitHub Actions. A API testada é a [DummyJSON](https://dummyjson.com) — uma API pública com autenticação JWT.
+Projeto de testes automatizados para o desafio Outsera de API REST utilizando **RestAssured + Cucumber BDD + Extent Report**, com pipeline CI/CD via GitHub Actions. A API testada é a [DummyJSON](https://dummyjson.com) — uma API pública com autenticação JWT, que disponibiliza endpoints para operações CRUD de produtos, gerenciamento de usuários e autenticação.
 
 ---
 
 ## Arquitetura
 
 ```
-api-automation-dummyjson/
+outsera-automacao-testes-api/
 ├── .github/
 │   └── workflows/
 │       └── api-tests.yml            # Pipeline CI/CD GitHub Actions
@@ -91,8 +91,8 @@ mvn -version
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/api-automation-dummyjson.git
-cd api-automation-dummyjson
+git clone https://github.com/rogerpdas/outsera-automacao-testes-api.git
+cd outsera-automacao-testes-api
 ```
 
 ### 2. Configure o ambiente de execução
@@ -219,4 +219,4 @@ Após cada execução, os artefatos ficam disponíveis em **Actions → Workflow
 
 ---
 
-> **Projeto gerado por:** Automação QA — RestAssured + Cucumber + Extent Report
+> **Projeto desenvolvido por:** Rogério Pereira da Silva — Automação QA — RestAssured + Cucumber + Extent Report
