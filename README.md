@@ -46,6 +46,9 @@ api-automation-dummyjson/
 │           ├── config-prod.properties # Config de produção
 │           ├── extent.properties    # Config do Extent Report
 │           └── extent-config.xml    # Config XML do Extent Report
+├── test-output/                     # Pasta ignorada pelo git
+│   └── extent-reports/
+│       └── .gitkeep                 # Mantém a pasta na estrutura
 ├── pom.xml
 └── README.md
 ```
@@ -132,16 +135,16 @@ mvn test
 
 Após execução, o relatório HTML é gerado em:
 ```
-target/extent-reports/report.html
+test-output/extent-reports/report.html
 ```
 
 Abra no navegador:
 ```bash
 # Linux/macOS
-open target/extent-reports/report.html
+open test-output/extent-reports/report.html
 
 # Windows
-start target/extent-reports/report.html
+start test-output/extent-reports/report.html
 ```
 
 O relatório contém:

@@ -40,7 +40,7 @@ jobs:
         if: always()
         with:
           name: extent-report-${{ github.run_number }}
-          path: target/extent-reports/
+          path: test-output/extent-reports/
           retention-days: 30
 
       - name: Sumário dos resultados no log
@@ -49,8 +49,8 @@ jobs:
           echo "=================================================="
           echo "         SUMÁRIO DE TESTES — DummyJSON            "
           echo "=================================================="
-          if [ -f target/extent-reports/summary.properties ]; then
-            source target/extent-reports/summary.properties
+          if [ -f test-output/extent-reports/summary.properties ]; then
+            source test-output/extent-reports/summary.properties
             echo "✅ Passou : $PASSED"
             echo "❌ Falhou : $FAILED"
             echo "📊 Total  : $TOTAL"
@@ -68,6 +68,6 @@ jobs:
         if: always() && github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: target/extent-reports/
+          publish_dir: test-output/extent-reports/
           publish_branch: gh-pages
           commit_message: "ci: atualiza relatório de testes - run #${{ github.run_number }}"

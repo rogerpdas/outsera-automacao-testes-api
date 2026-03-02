@@ -20,10 +20,10 @@ public class ExtentReportManager {
 
     public static synchronized ExtentReports getInstance() {
         if (extent == null) {
-            File reportDir = new File("target/extent-reports");
+            File reportDir = new File("test-output/extent-reports");
             reportDir.mkdirs();
 
-            ExtentSparkReporter spark = new ExtentSparkReporter("target/extent-reports/api-test-report.html");
+            ExtentSparkReporter spark = new ExtentSparkReporter("test-output/extent-reports/api-test-report.html");
             spark.config().setTheme(Theme.DARK);
             spark.config().setDocumentTitle("API Test Automation Report");
             spark.config().setReportName("DummyJSON API Test Results");
@@ -117,7 +117,7 @@ public class ExtentReportManager {
                     "TOTAL=%d%nPASSED=%d%nFAILED=%d%n", total, passed, failed);
 
             java.nio.file.Files.writeString(
-                    java.nio.file.Path.of("target/extent-reports/summary.properties"),
+                    java.nio.file.Path.of("test-output/extent-reports/summary.properties"),
                     summary);
         } catch (Exception e) {
             System.err.println("Erro ao gravar sumário: " + e.getMessage());

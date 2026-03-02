@@ -127,7 +127,7 @@
                     <testFailureIgnore>false</testFailureIgnore>
                     <systemPropertyVariables>
                         <extent.reporter.spark.start>true</extent.reporter.spark.start>
-                        <extent.reporter.spark.out>target/extent-reports/report.html</extent.reporter.spark.out>
+                        <extent.reporter.spark.out>test-output/extent-reports/report.html</extent.reporter.spark.out>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>

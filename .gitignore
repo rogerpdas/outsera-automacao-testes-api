@@ -52,8 +52,11 @@ buildNumber.properties
 .vscode/
 
 # Extent Reports
-#test-output/
-#target/extent-reports/
+test-output/*
+!test-output/.gitkeep
+!test-output/extent-reports/
+test-output/extent-reports/*
+!test-output/extent-reports/.gitkeep
 
 # OS generated files
 .DS_Store
