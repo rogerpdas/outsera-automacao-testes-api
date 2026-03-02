@@ -57,11 +57,11 @@ jobs:
           else
             echo "⚠️  Arquivo de sumário não encontrado."
           fi
-          echo "=================================================="
+          echo "================================================="
           echo "📄 Relatório visual: https://rogerpdas.github.io/outsera-automacao-testes-api/"
           echo "📄 Relatório HTML: https://rogerpdas.github.io/outsera-automacao-testes-api/report.html"
           echo "📄 Relatório API: https://rogerpdas.github.io/outsera-automacao-testes-api/api-test-report.html"
-          echo "=================================================="
+          echo "================================================="
 
       - name: Deploy do Extent Report para GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
