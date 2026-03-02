@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="12.244" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="12.818" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-21.0.9\bin"/>
-    <property name="sun.java.command" value="C:\Users\roger\AppData\Local\Temp\surefire13024783365726550580\surefirebooter-20260302085428168_3.jar C:\Users\roger\AppData\Local\Temp\surefire13024783365726550580 2026-03-02T08-54-27_969-jvmRun1 surefire-20260302085428168_1tmp surefire_0-20260302085428168_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\roger\AppData\Local\Temp\surefire5282871753904622215\surefirebooter-20260302093448247_3.jar C:\Users\roger\AppData\Local\Temp\surefire5282871753904622215 2026-03-02T09-34-48_028-jvmRun1 surefire-20260302093448247_1tmp surefire_0-20260302093448247_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Automacao\Desafio Outsera\outsera-automacao-testes-api\target\test-classes;C:\Automacao\Desafio Outsera\outsera-automacao-testes-api\target\classes;C:\Users\roger\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\roger\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\roger\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\roger\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\roger\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\roger\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\roger\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\roger\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\roger\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\roger\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\roger\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\roger\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\roger\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\roger\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\roger\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\roger\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\roger\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\roger\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\roger\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\roger\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\roger\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\roger\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\roger\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\roger\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\roger\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\roger\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\roger\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\roger\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\roger\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\roger\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\roger\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\roger\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\roger\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\roger\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\roger\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\roger\.m2\repository\io\cucumber\cucumber-picocontainer\7.15.0\cucumber-picocontainer-7.15.0.jar;C:\Users\roger\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\roger\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\roger\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\roger\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\roger\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\roger\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\roger\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\roger\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\roger\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\roger\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\roger\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\roger\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\roger\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\roger\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\roger\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\roger\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\roger\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\roger\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\roger\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\roger\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\roger\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\roger\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\roger\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\roger\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\roger\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\roger\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\roger\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\roger\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\roger\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\roger\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\roger\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\roger\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\roger\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\roger\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\roger\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\roger\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\roger\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\roger\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\roger\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\roger\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\roger\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\roger\.m2\repository\org\slf4j\slf4j-simple\2.0.11\slf4j-simple-2.0.11.jar;C:\Users\roger\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="extent.reporter.spark.start" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\roger\AppData\Local\Temp\surefire13024783365726550580\surefirebooter-20260302085428168_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\roger\AppData\Local\Temp\surefire5282871753904622215\surefirebooter-20260302093448247_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Login com credenciais válidas retorna token JWT" classname="Autenticação - POST /auth/login e GET /auth/me" time="4.422">
+  <testcase name="Login com credenciais válidas retorna token JWT" classname="Autenticação - POST /auth/login e GET /auth/me" time="4.582">
     <system-out><![CDATA[
 @auth @smoke @positivo
 Cenário: Login com credenciais válidas retorna token JWT                     &amp#27;[90m# src/test/resources/features/auth.feature:10&amp#27;[0m
@@ -83,8 +83,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzQsImV4cCI6MTc3MjQ1NjA3NH0.BJqWM1_PduPalm1dCDPV6jMHaHiyL4kEMCU1Wqrztac",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzQsImV4cCI6MTc3NTA0NDQ3NH0.Lq1hkLgc7Tmt7kACkkp2CNjvQUgzisijUWR15Rx3hNU",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTQsImV4cCI6MTc3MjQ1ODQ5NH0.QXq6yYE-sQqbFJdjyIu4FIJKq2ODazw9jyrk_NS0CoE",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTQsImV4cCI6MTc3NTA0Njg5NH0.jPMWwFlZqGE0lWfVSCSlk8jm3FaKoOQy3-b6hOrSY58",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -101,7 +101,7 @@ Body:
   &amp#27;[32mE &amp#27;[0m&amp#27;[32mo token JWT é armazenado para uso posterior&amp#27;[0m                              &amp#27;[90m# steps.AuthSteps.armazenarToken()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login com senha incorreta retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.68">
+  <testcase name="Login com senha incorreta retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.339">
     <system-out><![CDATA[
 @auth @negativo
 Cenário: Login com senha incorreta retorna erro de autenticação              &amp#27;[90m# src/test/resources/features/auth.feature:19&amp#27;[0m
@@ -129,7 +129,7 @@ Body:
   &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login com username ausente retorna erro de validação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.296">
+  <testcase name="Login com username ausente retorna erro de validação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.251">
     <system-out><![CDATA[
 @auth @negativo
 Cenário: Login com username ausente retorna erro de validação                &amp#27;[90m# src/test/resources/features/auth.feature:24&amp#27;[0m
@@ -157,7 +157,7 @@ Body:
   &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Login com payload malformado retorna erro" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.567">
+  <testcase name="Login com payload malformado retorna erro" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.293">
     <system-out><![CDATA[
 @auth @negativo
 Cenário: Login com payload malformado retorna erro                                        &amp#27;[90m# src/test/resources/features/auth.feature:29&amp#27;[0m
@@ -182,7 +182,7 @@ nao-e-json
   &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                                            &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar perfil autenticado com token válido retorna dados do usuário" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.722">
+  <testcase name="Buscar perfil autenticado com token válido retorna dados do usuário" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.676">
     <system-out><![CDATA[
 @auth @smoke @positivo
 Cenário: Buscar perfil autenticado com token válido retorna dados do usuário &amp#27;[90m# src/test/resources/features/auth.feature:35&amp#27;[0m
@@ -204,8 +204,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzcsImV4cCI6MTc3MjQ1NjA3N30.n8KMCMTsdyZtBFqi1e0cBG6A3rpx0MnwVDDNgegBM6o",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzcsImV4cCI6MTc3NTA0NDQ3N30.ujBXpVnCAHsEqABVmAqEIQ1xk1WtUYWiOTIILpkURdQ",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTcsImV4cCI6MTc3MjQ1ODQ5N30.4-MHV_ijcraWCLOlubmhEWPuYNmhijHlFxgv7ygZxL8",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTcsImV4cCI6MTc3NTA0Njg5N30.zeafbBtdhOPmJ68j-HNUH0ICiUlsBaCPNJuVPFx0oE0",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -222,7 +222,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzcsImV4cCI6MTc3MjQ1NjA3N30.n8KMCMTsdyZtBFqi1e0cBG6A3rpx0MnwVDDNgegBM6o
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTcsImV4cCI6MTc3MjQ1ODQ5N30.4-MHV_ijcraWCLOlubmhEWPuYNmhijHlFxgv7ygZxL8
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -304,7 +304,7 @@ Body:			<none>
   &amp#27;[32mE &amp#27;[0m&amp#27;[32mo campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"username"&amp#27;[0m&amp#27;[32m da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"emilys"&amp#27;[0m                         &amp#27;[90m# steps.AuthSteps.validarValorCampo(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar perfil sem token retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.144">
+  <testcase name="Buscar perfil sem token retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.538">
     <system-out><![CDATA[
 @auth @negativo
 Cenário: Buscar perfil sem token retorna erro de autenticação                &amp#27;[90m# src/test/resources/features/auth.feature:44&amp#27;[0m
@@ -327,7 +327,7 @@ Body:			<none>
   &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m401&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar perfil com token inválido retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.23">
+  <testcase name="Buscar perfil com token inválido retorna erro de autenticação" classname="Autenticação - POST /auth/login e GET /auth/me" time="0.264">
     <system-out><![CDATA[
 @auth @negativo
 Cenário: Buscar perfil com token inválido retorna erro de autenticação          &amp#27;[90m# src/test/resources/features/auth.feature:49&amp#27;[0m
@@ -351,7 +351,7 @@ Body:			<none>
   &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m401&amp#27;[0m                                  &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Listar todos os produtos com token válido" classname="Produtos - CRUD completo em /products" time="3.338">
+  <testcase name="Listar todos os produtos com token válido" classname="Produtos - CRUD completo em /products" time="4.299">
     <system-out><![CDATA[
 @products @smoke @positivo
 Cenário: Listar todos os produtos com token válido                             &amp#27;[90m# src/test/resources/features/products.feature:11&amp#27;[0m
@@ -373,8 +373,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzgsImV4cCI6MTc3MjQ1NjA3OH0.QPw8oqBAPF6KC7ZfRB7TQ29VMeL5Cwku1IEcdfsUv0o",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzgsImV4cCI6MTc3NTA0NDQ3OH0.flgA5ocKduwh-W8sPYkWBi_-Znt13wdLO_rAgBoF5t8",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTgsImV4cCI6MTc3MjQ1ODQ5OH0.LSKrmh7rELlM3WUYaucIllCcOulIXxRB-8G-qcG9FC4",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTgsImV4cCI6MTc3NTA0Njg5OH0.oVT1uEAUvBkH9N-_3rmUD2Q6E-JjK9Pn38YRX0Rik6g",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -391,7 +391,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzgsImV4cCI6MTc3MjQ1NjA3OH0.QPw8oqBAPF6KC7ZfRB7TQ29VMeL5Cwku1IEcdfsUv0o
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTgsImV4cCI6MTc3MjQ1ODQ5OH0.LSKrmh7rELlM3WUYaucIllCcOulIXxRB-8G-qcG9FC4
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -2207,7 +2207,7 @@ Body:			<none>
   &amp#27;[32mE &amp#27;[0m&amp#27;[32mo campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"total"&amp#27;[0m&amp#27;[32m da resposta deve ser maior que &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                           &amp#27;[90m# steps.AuthSteps.validarCampoMaiorQue(java.lang.String,int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Buscar produto por ID válido retorna produto" classname="Produtos - CRUD completo em /products" time="0.458">
+  <testcase name="Buscar produto por ID válido retorna produto" classname="Produtos - CRUD completo em /products" time="0.166">
     <system-out><![CDATA[
 @products @smoke @positivo
 Cenário: Buscar produto por ID válido retorna produto                            &amp#27;[90m# src/test/resources/features/products.feature:31&amp#27;[0m
@@ -2229,8 +2229,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzksImV4cCI6MTc3MjQ1NjA3OX0.OW9c3MsYnhArrBN8HzDmf_8C6wXDKrf7Nt6gf2YnkRc",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzksImV4cCI6MTc3NTA0NDQ3OX0.Z9mVTZiuBuXNzRIbbOOluBnglIFgLJi8Dww9ykkUF3g",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTksImV4cCI6MTc3MjQ1ODQ5OX0.X1o0Ucph38N9Yg0GcYgalDrVQfAmUt6vlDAiPszOEes",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTksImV4cCI6MTc3NTA0Njg5OX0.m3QXOdh-khhoqyZfsCW0JPfeIgrjA7IWv_mk6YWUq2Q",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -2247,7 +2247,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzksImV4cCI6MTc3MjQ1NjA3OX0.OW9c3MsYnhArrBN8HzDmf_8C6wXDKrf7Nt6gf2YnkRc
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ4OTksImV4cCI6MTc3MjQ1ODQ5OX0.X1o0Ucph38N9Yg0GcYgalDrVQfAmUt6vlDAiPszOEes
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -2321,7 +2321,7 @@ Body:			<none>
   &amp#27;[32mE &amp#27;[0m&amp#27;[32mo corpo da resposta deve conter o campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"price"&amp#27;[0m                              &amp#27;[90m# steps.AuthSteps.validarCampoNoCorpo(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Criar produto com dados válidos retorna produto criado" classname="Produtos - CRUD completo em /products" time="0.128">
+  <testcase name="Criar produto com dados válidos retorna produto criado" classname="Produtos - CRUD completo em /products" time="0.091">
     <system-out><![CDATA[
 @products @smoke @positivo
 Cenário: Criar produto com dados válidos retorna produto criado                     &amp#27;[90m# src/test/resources/features/products.feature:57&amp#27;[0m
@@ -2343,8 +2343,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzksImV4cCI6MTc3MjQ1NjA3OX0.OW9c3MsYnhArrBN8HzDmf_8C6wXDKrf7Nt6gf2YnkRc",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzksImV4cCI6MTc3NTA0NDQ3OX0.Z9mVTZiuBuXNzRIbbOOluBnglIFgLJi8Dww9ykkUF3g",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ5MDAsImV4cCI6MTc3MjQ1ODUwMH0.Ymel_csbP1eze7tjfNWwyVuWTA6uE8VJTHg7k1Sqzy4",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ5MDAsImV4cCI6MTc3NTA0NjkwMH0.r6yA500B2qbTBWqpAsxiErATCJ5ettGdNriUHJXZvTk",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -2361,7 +2361,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0NzksImV4cCI6MTc3MjQ1NjA3OX0.OW9c3MsYnhArrBN8HzDmf_8C6wXDKrf7Nt6gf2YnkRc
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ5MDAsImV4cCI6MTc3MjQ1ODUwMH0.Ymel_csbP1eze7tjfNWwyVuWTA6uE8VJTHg7k1Sqzy4
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -2389,7 +2389,7 @@ Body:
   &amp#27;[32mE &amp#27;[0m&amp#27;[32mo corpo da resposta deve conter o campo &amp#27;[0m&amp#27;[32m&amp#27;[1m"id"&amp#27;[0m                                    &amp#27;[90m# steps.AuthSteps.validarCampoNoCorpo(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Atualizar parcialmente produto existente com dados válidos" classname="Produtos - CRUD completo em /products" time="0.101">
+  <testcase name="Atualizar parcialmente produto existente com dados válidos" classname="Produtos - CRUD completo em /products" time="0.108">
     <system-out><![CDATA[
 @products @smoke @positivo
 Cenário: Atualizar parcialmente produto existente com dados válidos                      &amp#27;[90m# src/test/resources/features/products.feature:81&amp#27;[0m
@@ -2411,8 +2411,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0ODAsImV4cCI6MTc3MjQ1NjA4MH0.oGUD1a0YCIg-bGb2l6p7lbDmiug2A8tcPtCI8Wv3_iA",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0ODAsImV4cCI6MTc3NTA0NDQ4MH0.3d3J-qUOFBDYEpUd1t39r7BdnLjkocnTxZheN7yLr8E",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ5MDEsImV4cCI6MTc3MjQ1ODUwMX0.1oXpt3X0CvDccmIUx9hngysd6KjCM0gQMvQZWDVBP6w",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ5MDEsImV4cCI6MTc3NTA0NjkwMX0.8FCsar2iEJpk-DE8lXKvJmz6QSY8oK8ivQbrOBjMSQw",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -2429,7 +2429,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0ODAsImV4cCI6MTc3MjQ1NjA4MH0.oGUD1a0YCIg-bGb2l6p7lbDmiug2A8tcPtCI8Wv3_iA
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ5MDEsImV4cCI6MTc3MjQ1ODUwMX0.1oXpt3X0CvDccmIUx9hngysd6KjCM0gQMvQZWDVBP6w
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -2463,7 +2463,7 @@ Body:
   &amp#27;[32mE &amp#27;[0m&amp#27;[32mo header &amp#27;[0m&amp#27;[32m&amp#27;[1m"Content-Type"&amp#27;[0m&amp#27;[32m deve conter &amp#27;[0m&amp#27;[32m&amp#27;[1m"application/json"&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarHeader(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Deletar produto existente retorna sucesso" classname="Produtos - CRUD completo em /products" time="0.168">
+  <testcase name="Deletar produto existente retorna sucesso" classname="Produtos - CRUD completo em /products" time="0.131">
     <system-out><![CDATA[
 @products @smoke @positivo
 Cenário: Deletar produto existente retorna sucesso                           &amp#27;[90m# src/test/resources/features/products.feature:104&amp#27;[0m
@@ -2485,8 +2485,8 @@ Body:
     "password": "emilyspass"
 }
 {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0ODEsImV4cCI6MTc3MjQ1NjA4MX0.5YYiyARU2kJsnjc0xKoJaOKdlJGa4a7P83eUjBuYUyY",
-    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0ODEsImV4cCI6MTc3NTA0NDQ4MX0._Or16yQU1Ep4VXCUkcOG21znChLaQsHaESWzvck6gtQ",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ5MDIsImV4cCI6MTc3MjQ1ODUwMn0.fl85GajOZ75gqa6NENdDL5WOeycg7lInAMTLrf48lwA",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ5MDIsImV4cCI6MTc3NTA0NjkwMn0.uSeRa8JkeiEGwvFQ5cHRLOpaB2oFgmiRQDz0mR24KMM",
     "id": 1,
     "username": "emilys",
     "email": "emily.johnson@x.dummyjson.com",
@@ -2503,7 +2503,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTI0ODEsImV4cCI6MTc3MjQ1NjA4MX0.5YYiyARU2kJsnjc0xKoJaOKdlJGa4a7P83eUjBuYUyY
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3NzI0NTQ5MDIsImV4cCI6MTc3MjQ1ODUwMn0.fl85GajOZ75gqa6NENdDL5WOeycg7lInAMTLrf48lwA
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -2568,7 +2568,7 @@ Body:			<none>
     ],
     "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
     "isDeleted": true,
-    "deletedOn": "2026-03-02T11:54:41.677Z"
+    "deletedOn": "2026-03-02T12:35:02.375Z"
 }
   &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mdeleto o produto de ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                                            &amp#27;[90m# steps.ProductsSteps.deleteProduct(int)&amp#27;[0m
   &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo status code da resposta deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                               &amp#27;[90m# steps.AuthSteps.validarStatusCode(int)&amp#27;[0m
