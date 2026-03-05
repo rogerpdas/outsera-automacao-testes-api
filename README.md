@@ -1,4 +1,4 @@
-# 🧪 API Automation — Desafio Outsera
+# API Automation — Desafio Outsera
 
 [![API Tests](https://github.com/rogerpdas/outsera-automacao-testes-api/actions/workflows/api-tests.yml/badge.svg)](https://github.com/rogerpdas/outsera-automacao-testes-api/actions/workflows/api-tests.yml)
 
